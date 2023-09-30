@@ -16,6 +16,6 @@ for (let i=1000; i>=0; i--) {
 
   const favShows = ["Murder She Wrote", "Psych", "Lost", "Newhart", "Friends"];
 
-  for (i=0; i<5; i++) {
+  for (let i=0; i<5; i++) {
     console.log("My #" + (i + 1) + " favorite tv show is " + favShows[i] + ".")
   };
